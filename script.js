@@ -103,3 +103,9 @@ function reset(){
     userSeq=[]
     level=0;
 }
+
+let Tap=document.querySelector(".Tap");
+Tap.addEventListener("click",function(){
+    started=true;
+    levelUp();
+})

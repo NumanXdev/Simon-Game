@@ -33,6 +33,16 @@ body{
     background-color: #819ff9;
 }
 
+.Tap{
+    height: 6vh;
+    width: 14vh;
+}
+
+@media (min-width:800px){
+    .Tap{
+        visibility: hidden;
+    }
+}
 
 .gameFlash{
     background-color: white;
