@@ -36,6 +36,11 @@ body{
 .Tap{
     height: 6vh;
     width: 14vh;
+    border-radius: 10px;
+    border: none;
+    background-color: #834892;
+    color: white;
+    width: 18vw;
 }
 
 @media (min-width:800px){
@@ -55,9 +60,9 @@ body{
 
 @media (max-width: 768px) {
     .btn {
-        height: 150px;
-        width: 150px;
-        border-width: 8px;
+        height: 130px;
+        width: 130px;
+        border-width: 6px;
         margin: 1.5rem;
     }
 }
@@ -69,6 +74,12 @@ body{
         border:5px solid black;
         margin: 1.3rem;
     }
+    .h2{
+        display: none;
+    }
+    .Tap{
+        width: 83px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -77,5 +88,17 @@ body{
         width: 100px;
         border: 5px solid black;
         margin: 1rem;
+    }
+}
+
+@media (max-width: 260px) {
+    .btn {
+        height: 80px;
+        width: 80px;
+        border: 5px solid black;
+        margin: 1rem;
+    }
+    .Tap{
+        width: 83px;
     }
 }
